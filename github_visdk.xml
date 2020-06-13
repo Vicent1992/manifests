@@ -3,6 +3,8 @@
   <remote fetch="https://github.com/Vicent1992/" name="github"/>
   <default remote="github" revision="master" sync-j="4"/>
 
-  <project name="buildroot" path="buildroot" remote="github" revision="develop"/>
+  <project name="buildroot" path="visdk/buildroot" remote="github" revision="develop"/>
+  <project name="prebuilts" path="visdk/prebuilts"/>
+  <project name="visdk" path="visdk"/>
 
 </manifest>
