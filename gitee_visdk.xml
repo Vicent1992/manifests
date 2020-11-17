@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://gitee.com/Vicent1992/" name="gitee"/>
+  <default remote="gitee" revision="master" sync-j="4"/>
+
+  <project name="app" path="app"/>
+  <project name="buildroot" path="buildroot" revision="develop">
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+    <linkfile dest="Makefile" src="build/Makefile"/>
+  </project>
+  <project name="prebuilts" path="prebuilts"/>
+  <project name="system" path="system"/>
+</manifest>
