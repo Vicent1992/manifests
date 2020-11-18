@@ -33,11 +33,13 @@ https://blog.csdn.net/pengwupeng2008/article/details/107975766
 ##### 方法1
 
 + 在~/目录下面新增 .gitconfig 文件
+```
     [user]
         email = 978935078@qq.com
         name = Vicent1992
     [credential]
         helper=store
+```
 + 执行pull 第一次登入输入用户名，密码
 
 + 查看~/根目录下，会发现生成了一个 .git-credentials 文件
